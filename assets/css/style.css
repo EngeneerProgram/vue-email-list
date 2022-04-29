@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app{
+    height: 100vh;
+    display:Flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ul{
+    list-style:none;
+    padding-top: 2rem;
+}
+
+li{
+    padding:10px;
+    background-color: rgb(235, 231, 231);
+}
+
