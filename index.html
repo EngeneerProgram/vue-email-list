@@ -6,14 +6,14 @@
 </head>
 <body>
 <div id="app">
-    <h1>Welcome Axios</h1>
+    <h1>Axios</h1>
 
 
     <!-- lista delle email -->
 
-    <ul>
-        <li v-for="email in 10">
-            {{data.response}}
+    <ul v-if="emails.length === 10">
+        <li v-for="email in emails">
+            {{email}}
         </li>
     </ul>
 </div>
