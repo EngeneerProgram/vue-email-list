@@ -5,9 +5,21 @@
     <title>List Email</title>
 </head>
 <body>
+<div id="app">
+    <h1>Welcome Axios</h1>
 
+
+    <!-- lista delle email -->
+
+    <ul>
+        <li v-for="email in 10">
+            {{data.response}}
+        </li>
+    </ul>
+</div>
    
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src='https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js'></script>
     <script src="./assets/app.js"></script>
     
 </body>
